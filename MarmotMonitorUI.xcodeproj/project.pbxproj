@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		475C966A2BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C96692BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift */; };
+		475C966C2BE2CDC900CAEDF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C966B2BE2CDC900CAEDF3 /* ContentView.swift */; };
+		475C966E2BE2CDCA00CAEDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475C966D2BE2CDCA00CAEDF3 /* Assets.xcassets */; };
+		475C96712BE2CDCA00CAEDF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475C96702BE2CDCA00CAEDF3 /* Preview Assets.xcassets */; };
+		475C967B2BE2CDCA00CAEDF3 /* MarmotMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C967A2BE2CDCA00CAEDF3 /* MarmotMonitorUITests.swift */; };
+		475C96852BE2CDCA00CAEDF3 /* MarmotMonitorUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C96842BE2CDCA00CAEDF3 /* MarmotMonitorUIUITests.swift */; };
+		475C96872BE2CDCA00CAEDF3 /* MarmotMonitorUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C96862BE2CDCA00CAEDF3 /* MarmotMonitorUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		475C96772BE2CDCA00CAEDF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 475C965E2BE2CDC900CAEDF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 475C96652BE2CDC900CAEDF3;
+			remoteInfo = MarmotMonitorUI;
+		};
+		475C96812BE2CDCA00CAEDF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 475C965E2BE2CDC900CAEDF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 475C96652BE2CDC900CAEDF3;
+			remoteInfo = MarmotMonitorUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		475C96662BE2CDC900CAEDF3 /* MarmotMonitorUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarmotMonitorUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		475C96692BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarmotMonitorUIApp.swift; sourceTree = "<group>"; };
+		475C966B2BE2CDC900CAEDF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		475C966D2BE2CDCA00CAEDF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		475C96702BE2CDCA00CAEDF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		475C96762BE2CDCA00CAEDF3 /* MarmotMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarmotMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		475C967A2BE2CDCA00CAEDF3 /* MarmotMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarmotMonitorUITests.swift; sourceTree = "<group>"; };
+		475C96802BE2CDCA00CAEDF3 /* MarmotMonitorUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarmotMonitorUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		475C96842BE2CDCA00CAEDF3 /* MarmotMonitorUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarmotMonitorUIUITests.swift; sourceTree = "<group>"; };
+		475C96862BE2CDCA00CAEDF3 /* MarmotMonitorUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarmotMonitorUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		475C96632BE2CDC900CAEDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475C96732BE2CDCA00CAEDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475C967D2BE2CDCA00CAEDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		475C965D2BE2CDC900CAEDF3 = {
+			isa = PBXGroup;
+			children = (
+				475C96682BE2CDC900CAEDF3 /* MarmotMonitorUI */,
+				475C96792BE2CDCA00CAEDF3 /* MarmotMonitorUITests */,
+				475C96832BE2CDCA00CAEDF3 /* MarmotMonitorUIUITests */,
+				475C96672BE2CDC900CAEDF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		475C96672BE2CDC900CAEDF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				475C96662BE2CDC900CAEDF3 /* MarmotMonitorUI.app */,
+				475C96762BE2CDCA00CAEDF3 /* MarmotMonitorUITests.xctest */,
+				475C96802BE2CDCA00CAEDF3 /* MarmotMonitorUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		475C96682BE2CDC900CAEDF3 /* MarmotMonitorUI */ = {
+			isa = PBXGroup;
+			children = (
+				475C96692BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift */,
+				475C966B2BE2CDC900CAEDF3 /* ContentView.swift */,
+				475C966D2BE2CDCA00CAEDF3 /* Assets.xcassets */,
+				475C966F2BE2CDCA00CAEDF3 /* Preview Content */,
+			);
+			path = MarmotMonitorUI;
+			sourceTree = "<group>";
+		};
+		475C966F2BE2CDCA00CAEDF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				475C96702BE2CDCA00CAEDF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		475C96792BE2CDCA00CAEDF3 /* MarmotMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				475C967A2BE2CDCA00CAEDF3 /* MarmotMonitorUITests.swift */,
+			);
+			path = MarmotMonitorUITests;
+			sourceTree = "<group>";
+		};
+		475C96832BE2CDCA00CAEDF3 /* MarmotMonitorUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				475C96842BE2CDCA00CAEDF3 /* MarmotMonitorUIUITests.swift */,
+				475C96862BE2CDCA00CAEDF3 /* MarmotMonitorUIUITestsLaunchTests.swift */,
+			);
+			path = MarmotMonitorUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		475C96652BE2CDC900CAEDF3 /* MarmotMonitorUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 475C968A2BE2CDCA00CAEDF3 /* Build configuration list for PBXNativeTarget "MarmotMonitorUI" */;
+			buildPhases = (
+				475C96622BE2CDC900CAEDF3 /* Sources */,
+				475C96632BE2CDC900CAEDF3 /* Frameworks */,
+				475C96642BE2CDC900CAEDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarmotMonitorUI;
+			productName = MarmotMonitorUI;
+			productReference = 475C96662BE2CDC900CAEDF3 /* MarmotMonitorUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		475C96752BE2CDCA00CAEDF3 /* MarmotMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 475C968D2BE2CDCA00CAEDF3 /* Build configuration list for PBXNativeTarget "MarmotMonitorUITests" */;
+			buildPhases = (
+				475C96722BE2CDCA00CAEDF3 /* Sources */,
+				475C96732BE2CDCA00CAEDF3 /* Frameworks */,
+				475C96742BE2CDCA00CAEDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				475C96782BE2CDCA00CAEDF3 /* PBXTargetDependency */,
+			);
+			name = MarmotMonitorUITests;
+			productName = MarmotMonitorUITests;
+			productReference = 475C96762BE2CDCA00CAEDF3 /* MarmotMonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		475C967F2BE2CDCA00CAEDF3 /* MarmotMonitorUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 475C96902BE2CDCA00CAEDF3 /* Build configuration list for PBXNativeTarget "MarmotMonitorUIUITests" */;
+			buildPhases = (
+				475C967C2BE2CDCA00CAEDF3 /* Sources */,
+				475C967D2BE2CDCA00CAEDF3 /* Frameworks */,
+				475C967E2BE2CDCA00CAEDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				475C96822BE2CDCA00CAEDF3 /* PBXTargetDependency */,
+			);
+			name = MarmotMonitorUIUITests;
+			productName = MarmotMonitorUIUITests;
+			productReference = 475C96802BE2CDCA00CAEDF3 /* MarmotMonitorUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		475C965E2BE2CDC900CAEDF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					475C96652BE2CDC900CAEDF3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					475C96752BE2CDCA00CAEDF3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 475C96652BE2CDC900CAEDF3;
+					};
+					475C967F2BE2CDCA00CAEDF3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 475C96652BE2CDC900CAEDF3;
+					};
+				};
+			};
+			buildConfigurationList = 475C96612BE2CDC900CAEDF3 /* Build configuration list for PBXProject "MarmotMonitorUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 475C965D2BE2CDC900CAEDF3;
+			productRefGroup = 475C96672BE2CDC900CAEDF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				475C96652BE2CDC900CAEDF3 /* MarmotMonitorUI */,
+				475C96752BE2CDCA00CAEDF3 /* MarmotMonitorUITests */,
+				475C967F2BE2CDCA00CAEDF3 /* MarmotMonitorUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		475C96642BE2CDC900CAEDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475C96712BE2CDCA00CAEDF3 /* Preview Assets.xcassets in Resources */,
+				475C966E2BE2CDCA00CAEDF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475C96742BE2CDCA00CAEDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475C967E2BE2CDCA00CAEDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		475C96622BE2CDC900CAEDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475C966C2BE2CDC900CAEDF3 /* ContentView.swift in Sources */,
+				475C966A2BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475C96722BE2CDCA00CAEDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475C967B2BE2CDCA00CAEDF3 /* MarmotMonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475C967C2BE2CDCA00CAEDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475C96852BE2CDCA00CAEDF3 /* MarmotMonitorUIUITests.swift in Sources */,
+				475C96872BE2CDCA00CAEDF3 /* MarmotMonitorUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		475C96782BE2CDCA00CAEDF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 475C96652BE2CDC900CAEDF3 /* MarmotMonitorUI */;
+			targetProxy = 475C96772BE2CDCA00CAEDF3 /* PBXContainerItemProxy */;
+		};
+		475C96822BE2CDCA00CAEDF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 475C96652BE2CDC900CAEDF3 /* MarmotMonitorUI */;
+			targetProxy = 475C96812BE2CDCA00CAEDF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		475C96882BE2CDCA00CAEDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		475C96892BE2CDCA00CAEDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		475C968B2BE2CDCA00CAEDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarmotMonitorUI/Preview Content\"";
+				DEVELOPMENT_TEAM = ZRWFG582AN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pierrick.MarmotMonitorUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		475C968C2BE2CDCA00CAEDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarmotMonitorUI/Preview Content\"";
+				DEVELOPMENT_TEAM = ZRWFG582AN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pierrick.MarmotMonitorUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		475C968E2BE2CDCA00CAEDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRWFG582AN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pierrick.MarmotMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarmotMonitorUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarmotMonitorUI";
+			};
+			name = Debug;
+		};
+		475C968F2BE2CDCA00CAEDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRWFG582AN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pierrick.MarmotMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarmotMonitorUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarmotMonitorUI";
+			};
+			name = Release;
+		};
+		475C96912BE2CDCA00CAEDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRWFG582AN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pierrick.MarmotMonitorUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarmotMonitorUI;
+			};
+			name = Debug;
+		};
+		475C96922BE2CDCA00CAEDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRWFG582AN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pierrick.MarmotMonitorUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarmotMonitorUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		475C96612BE2CDC900CAEDF3 /* Build configuration list for PBXProject "MarmotMonitorUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475C96882BE2CDCA00CAEDF3 /* Debug */,
+				475C96892BE2CDCA00CAEDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		475C968A2BE2CDCA00CAEDF3 /* Build configuration list for PBXNativeTarget "MarmotMonitorUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475C968B2BE2CDCA00CAEDF3 /* Debug */,
+				475C968C2BE2CDCA00CAEDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		475C968D2BE2CDCA00CAEDF3 /* Build configuration list for PBXNativeTarget "MarmotMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475C968E2BE2CDCA00CAEDF3 /* Debug */,
+				475C968F2BE2CDCA00CAEDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		475C96902BE2CDCA00CAEDF3 /* Build configuration list for PBXNativeTarget "MarmotMonitorUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475C96912BE2CDCA00CAEDF3 /* Debug */,
+				475C96922BE2CDCA00CAEDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 475C965E2BE2CDC900CAEDF3 /* Project object */;
+}
