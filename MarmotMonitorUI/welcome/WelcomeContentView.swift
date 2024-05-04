@@ -8,7 +8,11 @@
 import SwiftUI
 import UIKit
 
+/// This view is used to display the welcome message
+/// It is the first view displayed when the app is launched for the first time
+
 struct WelcomeContentView: View {
+    @EnvironmentObject var appState: AppStartState
 
     var body: some View {
         GeometryReader { geometry in
@@ -43,7 +47,7 @@ struct WelcomeContentView: View {
                     .accessibilityLabel("Bonjour, je vais t'aider à créer ton espace personnalisé")
 
                     Button(action: {
-                        print("Button tapped")
+                        appState.switchView = .babyName
                     }) {
                         Text("Commencer")
                             .font(.custom("Symbol", size: 25))

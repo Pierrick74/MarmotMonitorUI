@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		471007662BE6585000A48362 /* BabyNameContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471007652BE6585000A48362 /* BabyNameContentView.swift */; };
+		471007682BE65B8C00A48362 /* AppStartState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471007672BE65B8C00A48362 /* AppStartState.swift */; };
+		4710076B2BE65C5B00A48362 /* WelcomeViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4710076A2BE65C5B00A48362 /* WelcomeViewManager.swift */; };
 		47567E7A2BE4274C0084862A /* Button+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47567E792BE4274C0084862A /* Button+.swift */; };
 		475C966A2BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C96692BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift */; };
 		475C966C2BE2CDC900CAEDF3 /* WelcomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C966B2BE2CDC900CAEDF3 /* WelcomeContentView.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		471007652BE6585000A48362 /* BabyNameContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyNameContentView.swift; sourceTree = "<group>"; };
+		471007672BE65B8C00A48362 /* AppStartState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStartState.swift; sourceTree = "<group>"; };
+		4710076A2BE65C5B00A48362 /* WelcomeViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewManager.swift; sourceTree = "<group>"; };
 		47567E792BE4274C0084862A /* Button+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+.swift"; sourceTree = "<group>"; };
 		475C96662BE2CDC900CAEDF3 /* MarmotMonitorUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarmotMonitorUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		475C96692BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarmotMonitorUIApp.swift; sourceTree = "<group>"; };
@@ -73,6 +79,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		471007692BE65BEC00A48362 /* welcome */ = {
+			isa = PBXGroup;
+			children = (
+				4710076A2BE65C5B00A48362 /* WelcomeViewManager.swift */,
+				471007672BE65B8C00A48362 /* AppStartState.swift */,
+				475C966B2BE2CDC900CAEDF3 /* WelcomeContentView.swift */,
+				471007652BE6585000A48362 /* BabyNameContentView.swift */,
+			);
+			path = welcome;
+			sourceTree = "<group>";
+		};
 		47567E782BE419320084862A /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				475C96692BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift */,
-				475C966B2BE2CDC900CAEDF3 /* WelcomeContentView.swift */,
+				471007692BE65BEC00A48362 /* welcome */,
 				47567E7B2BE427C40084862A /* Common */,
 				47567E782BE419320084862A /* Ressources */,
 				475C966F2BE2CDCA00CAEDF3 /* Preview Content */,
@@ -299,8 +316,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				475C966C2BE2CDC900CAEDF3 /* WelcomeContentView.swift in Sources */,
+				471007662BE6585000A48362 /* BabyNameContentView.swift in Sources */,
 				47567E7A2BE4274C0084862A /* Button+.swift in Sources */,
 				475C966A2BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift in Sources */,
+				471007682BE65B8C00A48362 /* AppStartState.swift in Sources */,
+				4710076B2BE65C5B00A48362 /* WelcomeViewManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
