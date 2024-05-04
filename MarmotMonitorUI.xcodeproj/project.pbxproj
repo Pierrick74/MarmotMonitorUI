@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47567E7A2BE4274C0084862A /* Button+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47567E792BE4274C0084862A /* Button+.swift */; };
 		475C966A2BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C96692BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift */; };
-		475C966C2BE2CDC900CAEDF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C966B2BE2CDC900CAEDF3 /* ContentView.swift */; };
+		475C966C2BE2CDC900CAEDF3 /* WelcomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C966B2BE2CDC900CAEDF3 /* WelcomeContentView.swift */; };
 		475C966E2BE2CDCA00CAEDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475C966D2BE2CDCA00CAEDF3 /* Assets.xcassets */; };
 		475C96712BE2CDCA00CAEDF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475C96702BE2CDCA00CAEDF3 /* Preview Assets.xcassets */; };
 		475C967B2BE2CDCA00CAEDF3 /* MarmotMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C967A2BE2CDCA00CAEDF3 /* MarmotMonitorUITests.swift */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47567E792BE4274C0084862A /* Button+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+.swift"; sourceTree = "<group>"; };
 		475C96662BE2CDC900CAEDF3 /* MarmotMonitorUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarmotMonitorUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		475C96692BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarmotMonitorUIApp.swift; sourceTree = "<group>"; };
-		475C966B2BE2CDC900CAEDF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		475C966B2BE2CDC900CAEDF3 /* WelcomeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeContentView.swift; sourceTree = "<group>"; };
 		475C966D2BE2CDCA00CAEDF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		475C96702BE2CDCA00CAEDF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		475C96762BE2CDCA00CAEDF3 /* MarmotMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarmotMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47567E782BE419320084862A /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				475C966D2BE2CDCA00CAEDF3 /* Assets.xcassets */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		47567E7B2BE427C40084862A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				47567E792BE4274C0084862A /* Button+.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		475C965D2BE2CDC900CAEDF3 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				475C96692BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift */,
-				475C966B2BE2CDC900CAEDF3 /* ContentView.swift */,
-				475C966D2BE2CDCA00CAEDF3 /* Assets.xcassets */,
+				475C966B2BE2CDC900CAEDF3 /* WelcomeContentView.swift */,
+				47567E7B2BE427C40084862A /* Common */,
+				47567E782BE419320084862A /* Ressources */,
 				475C966F2BE2CDCA00CAEDF3 /* Preview Content */,
 			);
 			path = MarmotMonitorUI;
@@ -279,7 +298,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				475C966C2BE2CDC900CAEDF3 /* ContentView.swift in Sources */,
+				475C966C2BE2CDC900CAEDF3 /* WelcomeContentView.swift in Sources */,
+				47567E7A2BE4274C0084862A /* Button+.swift in Sources */,
 				475C966A2BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

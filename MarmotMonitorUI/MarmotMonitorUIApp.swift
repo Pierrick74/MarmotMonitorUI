@@ -11,7 +11,7 @@ import SwiftUI
 struct MarmotMonitorUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeContentView()
         }
     }
 }
