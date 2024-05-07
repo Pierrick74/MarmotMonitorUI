@@ -50,18 +50,9 @@ struct WelcomeContentView: View {
                         appState.switchView = .babyName
                     }) {
                         Text("Commencer")
-                            .font(.custom("Symbol", size: 25))
-                            .foregroundColor(Color(uiColor: .label))
-                            .padding(15)
-                            .background(
-                                RoundedRectangle(cornerRadius: 20)
-                                    .stroke(Color.black, lineWidth: 2) // Crée une bordure noire arrondie
-                                    .background(RoundedRectangle(cornerRadius: 20).fill(Color.clear))
-                            )
                     }
                     .buttonStyle(PressableButtonStyle())
                     .padding(.vertical)
-                    .padding(.horizontal, 20)
                     .accessibilityLabel("Commencer")
                     .accessibilityHint("Appuie sur le bouton pour commencer")
                     .accessibilityAddTraits(.isButton)

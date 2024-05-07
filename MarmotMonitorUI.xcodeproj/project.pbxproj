@@ -10,6 +10,7 @@
 		471007662BE6585000A48362 /* BabyNameContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471007652BE6585000A48362 /* BabyNameContentView.swift */; };
 		471007682BE65B8C00A48362 /* AppStartState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471007672BE65B8C00A48362 /* AppStartState.swift */; };
 		4710076B2BE65C5B00A48362 /* WelcomeViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4710076A2BE65C5B00A48362 /* WelcomeViewManager.swift */; };
+		471455E82BE8EBB500E80460 /* TextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471455E72BE8EBB500E80460 /* TextField+.swift */; };
 		47567E7A2BE4274C0084862A /* Button+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47567E792BE4274C0084862A /* Button+.swift */; };
 		475C966A2BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C96692BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift */; };
 		475C966C2BE2CDC900CAEDF3 /* WelcomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C966B2BE2CDC900CAEDF3 /* WelcomeContentView.swift */; };
@@ -41,6 +42,7 @@
 		471007652BE6585000A48362 /* BabyNameContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyNameContentView.swift; sourceTree = "<group>"; };
 		471007672BE65B8C00A48362 /* AppStartState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStartState.swift; sourceTree = "<group>"; };
 		4710076A2BE65C5B00A48362 /* WelcomeViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewManager.swift; sourceTree = "<group>"; };
+		471455E72BE8EBB500E80460 /* TextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+.swift"; sourceTree = "<group>"; };
 		47567E792BE4274C0084862A /* Button+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+.swift"; sourceTree = "<group>"; };
 		475C96662BE2CDC900CAEDF3 /* MarmotMonitorUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarmotMonitorUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		475C96692BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarmotMonitorUIApp.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				47567E792BE4274C0084862A /* Button+.swift */,
+				471455E72BE8EBB500E80460 /* TextField+.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -306,7 +309,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -316,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				475C966C2BE2CDC900CAEDF3 /* WelcomeContentView.swift in Sources */,
+				471455E82BE8EBB500E80460 /* TextField+.swift in Sources */,
 				471007662BE6585000A48362 /* BabyNameContentView.swift in Sources */,
 				47567E7A2BE4274C0084862A /* Button+.swift in Sources */,
 				475C966A2BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift in Sources */,

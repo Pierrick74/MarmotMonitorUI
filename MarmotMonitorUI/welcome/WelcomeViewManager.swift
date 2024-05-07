@@ -9,7 +9,7 @@ import SwiftUI
 
 /// This view is used to manage the different views of the app
 /// It is used to switch between the different views
- 
+
 struct WelcomeViewManager: View {
     @StateObject var appState = AppStartState()
 
