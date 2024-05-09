@@ -60,7 +60,7 @@ struct BabyNameContentView: View {
 
                     Button(action: {
                         if babyName.count > 1 {
-                            appState.switchView = .welcome
+                            appState.switchView = .gender
                         }
                     }){
                         Text("Suivant")
