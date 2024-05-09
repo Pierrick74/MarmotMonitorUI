@@ -11,6 +11,7 @@ struct BabyNameContentView: View {
     @EnvironmentObject var appState: AppStartState
     @AppStorage("babyName") var babyName = ""
     @State var isButtonActive: Bool = false
+    @FocusState private var isFocused: Bool
 
     var body: some View {
         GeometryReader { geometry in
@@ -36,6 +37,7 @@ struct BabyNameContentView: View {
                             .accessibilityAddTraits(.isHeader)
 
                         TextField("Nom du bébé", text: $babyName)
+                            .focused($isFocused)
                             .submitLabel(.done)
                             .onSubmit() {
                                 if babyName.count > 1 {
@@ -75,6 +77,9 @@ struct BabyNameContentView: View {
             .frame(width: geometry.size.width)
         }
         .background(LinearGradient(gradient: Gradient(colors: [Color.pastelBlueToEgyptienBlue, Color.whiteToEgyptienBlue]), startPoint: .top, endPoint: .bottom))
+        .onTapGesture {
+            isFocused = false
+        }
     }
 }
 
