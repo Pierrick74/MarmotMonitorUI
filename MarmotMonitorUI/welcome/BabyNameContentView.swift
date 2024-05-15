@@ -57,6 +57,9 @@ struct BabyNameContentView: View {
                     .onChange(of: babyName) {
                         isButtonActive = babyName.count > 1
                     }
+                    .onAppear {
+                        isButtonActive = babyName.count > 1
+                    }
 
                     Button(action: {
                         if babyName.count > 1 {

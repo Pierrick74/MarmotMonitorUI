@@ -21,6 +21,16 @@ struct GenderContentView: View {
         }
     }
 
+    var shadowColor: Color {
+        switch genderStatus {
+        case .boy:
+            return .blue
+        case .girl:
+            return .pink
+        default:
+            return .clear
+        }
+    }
 
     var body: some View {
         GeometryReader { geometry in
@@ -57,9 +67,10 @@ struct GenderContentView: View {
                                     .frame(width: isAccessibleCategory ? 100 : 70,
                                            height: isAccessibleCategory ? 100 : 70)
                                     .clipShape(Circle())
-                                    
+                                    .overlay(Circle().stroke(Color.pink, lineWidth: genderStatus == .girl ? 2 : 0))
                             }
-                            .overlay(Circle().stroke(Color.pink, lineWidth: genderStatus == .girl ? 5 : 0))
+                            .accessibilityLabel("Selectionner le genre fille")
+                            .accessibilityAddTraits(.isButton)
 
                             Spacer()
                                 .frame(width: 40)
@@ -73,8 +84,10 @@ struct GenderContentView: View {
                                     .frame(width: isAccessibleCategory ? 100 : 70,
                                            height: isAccessibleCategory ? 100 : 70)
                                     .clipShape(Circle())
-                                    .overlay(Circle().stroke(Color.blue, lineWidth: genderStatus == .boy ? 5 : 0))
+                                    .overlay(Circle().stroke(Color.blue, lineWidth: genderStatus == .boy ? 2 : 0))
                             }
+                            .accessibilityLabel("Selectionner le genre garçon")
+                            .accessibilityAddTraits(.isButton)
 
                             Spacer()
                         }
@@ -84,6 +97,8 @@ struct GenderContentView: View {
                     }
                     .background(.softGrayToEgyptienBlueSoft)
                     .cornerRadius(20)
+                    .padding(.horizontal, 10)
+                    .shadow(color: shadowColor , radius: 20)
 
                     Button(action: {
                         gender = genderStatus
@@ -95,7 +110,7 @@ struct GenderContentView: View {
                     .buttonStyle(PressableButtonStyle())
                     .padding(.vertical)
                     .accessibilityLabel("Suivant")
-                    .accessibilityHint("Appuie pour valider le genre de l'enfant et passer à l'étape suivante")
+                    .accessibilityHint("Genre selectionné \(genderStatus.description). Appuie pour valider le genre et passer à l'étape suivante")
                     .accessibilityAddTraits(.isButton)
                 }
 
@@ -104,6 +119,9 @@ struct GenderContentView: View {
             .frame(width: geometry.size.width)
         }
         .background(LinearGradient(gradient: Gradient(colors: [Color.pastelBlueToEgyptienBlue, Color.whiteToEgyptienBlue]), startPoint: .top, endPoint: .bottom))
+        .onAppear(perform: {
+            genderStatus = gender
+        })
     }
 }
 
@@ -121,7 +139,7 @@ enum Gender: String {
         case .girl:
             return "Fille"
         case .none:
-            return ""
+            return "Aucun"
         }
     }
 }
