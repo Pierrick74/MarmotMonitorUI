@@ -98,12 +98,11 @@ struct GenderContentView: View {
                     .background(.softGrayToEgyptienBlueSoft)
                     .cornerRadius(20)
                     .padding(.horizontal, 10)
-                    .shadow(color: shadowColor , radius: 20)
+                    .shadow(color: shadowColor , radius: 10)
 
                     Button(action: {
                         gender = genderStatus
-                        print("sauvegarde de \(gender.description)")
-                        appState.switchView = .welcome
+                        appState.switchView = .parentName
                     }){
                         Text("Suivant")
                     }

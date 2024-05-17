@@ -30,7 +30,7 @@ struct WelcomeViewManager: View {
                 GenderContentView()
                     .environmentObject(appState)
             case .parentName:
-                WelcomeContentView()
+                ParentNameContentView()
                     .environmentObject(appState)
             case .birthDay:
                 WelcomeContentView()
