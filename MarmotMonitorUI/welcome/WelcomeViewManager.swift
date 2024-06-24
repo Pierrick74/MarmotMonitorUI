@@ -33,7 +33,7 @@ struct WelcomeViewManager: View {
                 ParentNameContentView()
                     .environmentObject(appState)
             case .birthDay:
-                WelcomeContentView()
+                BirthDayContentView()
                     .environmentObject(appState)
             case .mainApp:
                 WelcomeContentView()
