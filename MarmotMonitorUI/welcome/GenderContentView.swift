@@ -108,6 +108,7 @@ struct GenderContentView: View {
                     }
                     .buttonStyle(PressableButtonStyle())
                     .padding(.vertical)
+                    .padding(.trailing, 5)
                     .accessibilityLabel("Suivant")
                     .accessibilityHint("Genre selectionné \(genderStatus.description). Appuie pour valider le genre et passer à l'étape suivante")
                     .accessibilityAddTraits(.isButton)

@@ -70,6 +70,7 @@ struct BabyNameContentView: View {
                     }
                     .buttonStyle(AdaptableButtonStyle(isActive: $isButtonActive))
                     .padding(.vertical)
+                    .padding(.trailing, 5)
                     .accessibilityLabel("Suivant")
                     .accessibilityHint("Appuie pour valider le nom de l'enfant et passer à l'étape suivante")
                     .accessibilityAddTraits(.isButton)

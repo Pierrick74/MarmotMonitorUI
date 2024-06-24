@@ -53,7 +53,7 @@ struct ParentNameContentView: View {
                     .cornerRadius(20)
 
                     Button(action: {
-                        appState.switchView = .welcome
+                        appState.switchView = .birthDay
                     }){
                         Text("Suivant")
                     }

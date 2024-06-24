@@ -20,6 +20,7 @@
 		475C96852BE2CDCA00CAEDF3 /* MarmotMonitorUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C96842BE2CDCA00CAEDF3 /* MarmotMonitorUIUITests.swift */; };
 		475C96872BE2CDCA00CAEDF3 /* MarmotMonitorUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475C96862BE2CDCA00CAEDF3 /* MarmotMonitorUIUITestsLaunchTests.swift */; };
 		478A6D3B2BF75D6600ACAE58 /* ParentNameContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478A6D3A2BF75D6600ACAE58 /* ParentNameContentView.swift */; };
+		478A6D3D2BF75F1500ACAE58 /* BirthDayContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478A6D3C2BF75F1500ACAE58 /* BirthDayContentView.swift */; };
 		47EE85692BED522F0032BE15 /* GenderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EE85682BED522F0032BE15 /* GenderContentView.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		475C96842BE2CDCA00CAEDF3 /* MarmotMonitorUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarmotMonitorUIUITests.swift; sourceTree = "<group>"; };
 		475C96862BE2CDCA00CAEDF3 /* MarmotMonitorUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarmotMonitorUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		478A6D3A2BF75D6600ACAE58 /* ParentNameContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentNameContentView.swift; sourceTree = "<group>"; };
+		478A6D3C2BF75F1500ACAE58 /* BirthDayContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthDayContentView.swift; sourceTree = "<group>"; };
 		47EE85682BED522F0032BE15 /* GenderContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +96,7 @@
 				471007652BE6585000A48362 /* BabyNameContentView.swift */,
 				47EE85682BED522F0032BE15 /* GenderContentView.swift */,
 				478A6D3A2BF75D6600ACAE58 /* ParentNameContentView.swift */,
+				478A6D3C2BF75F1500ACAE58 /* BirthDayContentView.swift */,
 			);
 			path = welcome;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				471007662BE6585000A48362 /* BabyNameContentView.swift in Sources */,
 				47567E7A2BE4274C0084862A /* Button+.swift in Sources */,
 				475C966A2BE2CDC900CAEDF3 /* MarmotMonitorUIApp.swift in Sources */,
+				478A6D3D2BF75F1500ACAE58 /* BirthDayContentView.swift in Sources */,
 				47EE85692BED522F0032BE15 /* GenderContentView.swift in Sources */,
 				478A6D3B2BF75D6600ACAE58 /* ParentNameContentView.swift in Sources */,
 				471007682BE65B8C00A48362 /* AppStartState.swift in Sources */,

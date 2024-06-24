@@ -53,6 +53,7 @@ struct WelcomeContentView: View {
                     }
                     .buttonStyle(PressableButtonStyle())
                     .padding(.vertical)
+                    .padding(.trailing, 5)
                     .accessibilityLabel("Commencer")
                     .accessibilityHint("Appuie sur le bouton pour commencer")
                     .accessibilityAddTraits(.isButton)
